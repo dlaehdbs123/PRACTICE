@@ -1,0 +1,30 @@
+h1{
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin:0;
+  margin-bottom: 0px;
+
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+ol{
+
+  margin:0;
+  margin-right: 20px;
+  border-right: 1px solid gray;
+}
+@media(max-width:800px) {
+  #grid{
+    display: block;
+
+  }
+  ol{
+    border-right:none;
+  }
+
+}
+a{
+  text-decoration-line: none;
+}
